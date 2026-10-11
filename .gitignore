@@ -1,0 +1,20 @@
+# ── 密钥：最重要的一行，删了 Key 就会泄露 ──
+.env
+
+# ── C / C++ 编译产物（gcc 生成的，不用交）──
+*.exe
+*.o
+*.out
+a.out
+
+# ── Python ──
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# ── 编辑器 / 系统 ──
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
